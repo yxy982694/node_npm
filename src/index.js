@@ -22,6 +22,5 @@ const argv = yargs
   .alias('v', 'version')
   .help()
   .argv;
-
 const server = new Server(argv);
 server.start();
