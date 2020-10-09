@@ -1,6 +1,6 @@
 {
   "name": "anydooryxy",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "yxy nodejs web server",
   "main": "src/app.js",
   "bin": {
@@ -22,15 +22,14 @@
     "static",
     "webserver"
   ],
-  "author": "Samaritan89",
-  "email": "sunluyong@gmail.com",
+  "author": "yxy982694",
+  "email": "3216320895@qq.com",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/yxy982694/node_npm/issues"
   },
   "homepage": "https://github.com/yxy982694/node_npm#readme",
   "devDependencies": {
-    "anydooryxy": "^0.2.0",
     "babel-eslint": "^7.2.3",
     "eslint": "^4.5.0",
     "pre-commit": "^1.2.2"
