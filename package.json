@@ -1,10 +1,13 @@
 {
   "name": "anydooryxy",
-  "version": "0.2.3",
+  "version": "0.2.4",
   "description": "yxy nodejs web server",
   "main": "src/app.js",
+  "config": {
+    "zhangsan": "9089"
+  },
   "bin": {
-    "anydooryxy": "bin/anydooryxy"
+    "anydooryxy": "./bin/anydooryxy"
   },
   "scripts": {
     "lint": "eslint .",
@@ -30,6 +33,7 @@
   },
   "homepage": "https://github.com/yxy982694/node_npm#readme",
   "devDependencies": {
+    "anydooryxy": "^0.2.3",
     "babel-eslint": "^7.2.3",
     "eslint": "^4.5.0",
     "pre-commit": "^1.2.2"
