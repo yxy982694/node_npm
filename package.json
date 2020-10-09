@@ -1,10 +1,10 @@
 {
   "name": "anydooryxy",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "yxy nodejs web server",
   "main": "src/app.js",
   "bin": {
-    "anydooryxy": "bin/anydoor"
+    "anydooryxy": "bin/anydooryxy"
   },
   "scripts": {
     "lint": "eslint .",
