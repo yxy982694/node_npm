@@ -1,42 +1,43 @@
 {
-    "name": "anydooryxy",
-    "version": "0.2.0",
-    "description": "yxy nodejs web server",
-    "main": "src/app.js",
-    "bin": {
-        "anydoor": "bin/anydoor"
-    },
-    "scripts": {
-        "lint": "eslint .",
-        "fix": "eslint --fix ."
-    },
-    "pre-commit": [
-        "fix",
-        "lint"
-    ],
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/yxy982694/node_npm.git"
-    },
-    "keywords": [
-        "static",
-        "webserver"
-    ],
-    "author": "Samaritan89",
-    "email": "sunluyong@gmail.com",
-    "license": "ISC",
-    "bugs": {
-        "url": "https://github.com/yxy982694/node_npm/issues"
-    },
-    "homepage": "https://github.com/yxy982694/node_npm#readme",
-    "devDependencies": {
-        "babel-eslint": "^7.2.3",
-        "eslint": "^4.5.0",
-        "pre-commit": "^1.2.2"
-    },
-    "dependencies": {
-        "chalk": "^2.1.0",
-        "handlebars": "^4.0.10",
-        "yargs": "^8.0.2"
-    }
+  "name": "anydooryxy",
+  "version": "0.2.1",
+  "description": "yxy nodejs web server",
+  "main": "src/app.js",
+  "bin": {
+    "anydooryxy": "bin/anydoor"
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "fix": "eslint --fix ."
+  },
+  "pre-commit": [
+    "fix",
+    "lint"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yxy982694/node_npm.git"
+  },
+  "keywords": [
+    "static",
+    "webserver"
+  ],
+  "author": "Samaritan89",
+  "email": "sunluyong@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yxy982694/node_npm/issues"
+  },
+  "homepage": "https://github.com/yxy982694/node_npm#readme",
+  "devDependencies": {
+    "anydooryxy": "^0.2.0",
+    "babel-eslint": "^7.2.3",
+    "eslint": "^4.5.0",
+    "pre-commit": "^1.2.2"
+  },
+  "dependencies": {
+    "chalk": "^2.1.0",
+    "handlebars": "^4.0.10",
+    "yargs": "^8.0.2"
+  }
 }
