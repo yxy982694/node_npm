@@ -1,7 +1,7 @@
 {
     "name": "anydooryxy",
     "version": "0.2.0",
-    "description": "tiny nodejs web server",
+    "description": "yxy nodejs web server",
     "main": "src/app.js",
     "bin": {
         "anydoor": "bin/anydoor"
@@ -16,7 +16,7 @@
     ],
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/Samaritan89/anydoor.git"
+        "url": "git+https://github.com/yxy982694/node_npm.git"
     },
     "keywords": [
         "static",
@@ -26,9 +26,9 @@
     "email": "sunluyong@gmail.com",
     "license": "ISC",
     "bugs": {
-        "url": "https://github.com/Samaritan89/anydoor/issues"
+        "url": "https://github.com/yxy982694/node_npm/issues"
     },
-    "homepage": "https://github.com/Samaritan89/anydoor#readme",
+    "homepage": "https://github.com/yxy982694/node_npm#readme",
     "devDependencies": {
         "babel-eslint": "^7.2.3",
         "eslint": "^4.5.0",
