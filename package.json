@@ -1,10 +1,10 @@
 {
-  "name": "anydooryxy",
-  "version": "0.2.5",
+  "name": "yxyanydoor",
+  "version": "0.2.6",
   "description": "yxy nodejs web server",
   "main": "src/app.js",
   "bin": {
-    "anydooryxy": "bin/anydooryxy"
+    "anydoor_yxy": "bin/anydoor_yxy"
   },
   "scripts": {
     "lint": "eslint .",
@@ -30,13 +30,11 @@
   },
   "homepage": "https://github.com/yxy982694/node_npm#readme",
   "devDependencies": {
-    "anydooryxy": "^0.2.4",
     "babel-eslint": "^7.2.3",
     "eslint": "^4.5.0",
     "pre-commit": "^1.2.2"
   },
   "dependencies": {
-    "anydooryxy": "^0.2.4",
     "chalk": "^2.1.0",
     "handlebars": "^4.0.10",
     "yargs": "^8.0.2"
